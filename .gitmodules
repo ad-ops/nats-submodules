@@ -8,3 +8,4 @@
 [submodule "nats.net"]
 	path = nats.net
 	url = https://github.com/nats-io/nats.net.git
+	branch = v2.3.3
