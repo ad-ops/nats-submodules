@@ -1,0 +1,9 @@
+[submodule "nats-viewer"]
+	path = nats-viewer
+	url = https://github.com/ad-ops/nats-viewer.git
+[submodule "nats-publisher"]
+	path = nats-publisher
+	url = https://github.com/ad-ops/nats-publisher.git
+[submodule "nats.net"]
+	path = nats.net
+	url = https://github.com/nats-io/nats.net.git
