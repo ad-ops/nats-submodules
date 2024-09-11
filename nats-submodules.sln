@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nats-publisher", "nats-publisher", "{7F7F3E94-BFF2-4FFC-BF51-9D29743D0411}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "publisher", "nats-publisher\publisher\publisher.csproj", "{8A89F8A5-102B-43BC-98A9-25B0A8A572F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nats-viewer", "nats-viewer\nats-viewer.csproj", "{C61CBDC3-60B9-495B-8F07-FBAF12A03C65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A89F8A5-102B-43BC-98A9-25B0A8A572F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A89F8A5-102B-43BC-98A9-25B0A8A572F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A89F8A5-102B-43BC-98A9-25B0A8A572F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A89F8A5-102B-43BC-98A9-25B0A8A572F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C61CBDC3-60B9-495B-8F07-FBAF12A03C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C61CBDC3-60B9-495B-8F07-FBAF12A03C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C61CBDC3-60B9-495B-8F07-FBAF12A03C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C61CBDC3-60B9-495B-8F07-FBAF12A03C65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A89F8A5-102B-43BC-98A9-25B0A8A572F1} = {7F7F3E94-BFF2-4FFC-BF51-9D29743D0411}
+	EndGlobalSection
+EndGlobal
