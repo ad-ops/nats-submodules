@@ -1,6 +1,7 @@
 [submodule "nats-viewer"]
 	path = nats-viewer
 	url = https://github.com/ad-ops/nats-viewer.git
+	ignore = all
 [submodule "nats-publisher"]
 	path = nats-publisher
 	url = https://github.com/ad-ops/nats-publisher.git
